@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gabriel Telang | Senior MIS & Data Analyst specializing in Power BI, SQL, DAX, Advanced Excel & Business Intelligence.">
+    <title>Gabriel Telang | Enterprise Data Analyst & BI Specialist</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Tech Grid -->
+<div class="bg-grid-overlay"></div>
+
+<!-- Navigation Header -->
+<header id="header">
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-chart-simple"></i></span>
+            GABRIEL<span>.DATA</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-item active">Home</a></li>
+            <li><a href="#about" class="nav-item">About</a></li>
+            <li><a href="#tech-stack" class="nav-item">Tech Stack</a></li>
+            <li><a href="#projects" class="nav-item">Analytics Projects</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+            <a href="#contact" class="btn btn-sm btn-cyan"><i class="fa-solid fa-terminal"></i> Hire Analyst</a>
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero section-observe">
+        <div class="hero-content">
+            <div class="status-badge">
+                <span class="pulse-dot"></span> Available for Data Analytics & BI Roles
+            </div>
+            
+            <h1>Transforming <span>Raw Data</span> Into Business Growth.</h1>
+            
+            <p class="hero-subtitle">
+                Senior MIS & Data Analyst with <strong>5+ years</strong> of expertise in building enterprise Power BI dashboards, writing complex SQL queries, and automating reporting pipelines.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-cyan"><i class="fa-solid fa-chart-pie"></i> View BI Projects</a>
+                <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+            </div>
+
+            <!-- Mini Key Metric Chips -->
+            <div class="hero-highlights">
+                <div class="highlight-item">
+                    <span class="hl-value">SQL & DAX</span>
+                    <span class="hl-label">Query Optimization</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="hl-value">Power BI</span>
+                    <span class="hl-label">Data Modeling</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="hl-value">Excel VBA</span>
+                    <span class="hl-label">Process Automation</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="dashboard-preview-card">
+                <div class="card-header-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="card-title-text"><i class="fa-solid fa-database"></i> gabriel_analytics_db</span>
+                </div>
+                
+                <div class="profile-container">
+                    <img src="my-photo-pic.png" alt="Gabriel Telang - Data Analyst Profile">
+                </div>
+
+                <!-- Floating Metric Badges -->
+                <div class="floating-chip chip-1">
+                    <i class="fa-solid fa-bolt text-cyan"></i>
+                    <div>
+                        <strong>99.4%</strong>
+                        <span>Report Accuracy</span>
+                    </div>
+                </div>
+
+                <div class="floating-chip chip-2">
+                    <i class="fa-solid fa-arrow-trend-up text-emerald"></i>
+                    <div>
+                        <strong>10M+ Rows</strong>
+                        <span>Processed Daily</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVE METRICS COUNTER BAR -->
+    <section class="metrics-bar section-observe">
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <i class="fa-solid fa-calendar-check"></i>
+                <div class="metric-info">
+                    <h2 class="counter" data-target="5">0</h2><span class="plus">+</span>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <div class="metric-info">
+                    <h2 class="counter" data-target="50">0</h2><span class="plus">+</span>
+                    <p>BI Dashboards Built</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <div class="metric-info">
+                    <h2 class="counter" data-target="80">0</h2><span class="plus">%</span>
+                    <p>Reporting Hours Saved</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <i class="fa-solid fa-database"></i>
+                <div class="metric-info">
+                    <h2 class="counter" data-target="100">0</h2><span class="plus">%</span>
+                    <p>Data Accuracy Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION (WITH YOUR PHOTO) -->
+    <section id="about" class="about section-observe">
+        <div class="about-grid">
+            <!-- Left Side: Profile Picture Card -->
+            <div class="about-image-card">
+                <div class="photo-frame">
+                    <img src="my-photo-pic.png" alt="Gabriel Telang - MIS & Data Analyst" class="about-profile-img">
+                    <div class="frame-glow"></div>
+                </div>
+                <div class="about-photo-badge">
+                    <i class="fa-solid fa-award text-cyan"></i>
+                    <div>
+                        <strong>Gabriel Telang</strong>
+                        <span>MIS & Data Specialist</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Profile Description -->
+            <div class="about-text">
+                <span class="section-tag"><i class="fa-solid fa-user-gear"></i> Professional Profile</span>
+                <h2>Data Storyteller & <span>MIS Architect</span></h2>
+                <p>
+                    I am <strong>Gabriel Telang</strong>, a Senior Data Analyst specializing in bridging the gap between raw unstructured data and C-suite decision making. With 5+ years of hands-on experience across banking and financial services, I transform complex datasets into clear, actionable business insights.
+                </p>
+                <p>
+                    My core expertise spans designing star-schema data models in Power BI, writing high-performance SQL queries, developing dynamic DAX measures, building Power Query ETL pipelines, and automating repetitive reporting workflows using Excel VBA.
+                </p>
+                
+                <div class="competencies-list">
+                    <div class="comp-item"><i class="fa-solid fa-check-double text-cyan"></i> Executive Dashboard Architecture</div>
+                    <div class="comp-item"><i class="fa-solid fa-check-double text-cyan"></i> Data Pipeline & ETL Automation</div>
+                    <div class="comp-item"><i class="fa-solid fa-check-double text-cyan"></i> Financial & Operational Reporting</div>
+                    <div class="comp-item"><i class="fa-solid fa-check-double text-cyan"></i> Statistical Data Modeling & DAX</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK MATRIX -->
+    <section id="tech-stack" class="tech-stack section-observe">
+        <div class="section-title">
+            <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Analytical Toolbox</span>
+            <h2>Tools & <span>Technologies</span></h2>
+            <p>Battle-tested technologies I utilize to analyze, query, visualize, and automate data workflows.</p>
+        </div>
+
+        <div class="stack-grid">
+            <div class="stack-card">
+                <div class="stack-icon"><i class="fa-solid fa-chart-column text-yellow"></i></div>
+                <h3>Power BI & DAX</h3>
+                <p>Star-schema data modeling, custom DAX metrics, row-level security (RLS), and Power BI Service deployment.</p>
+                <div class="skill-pills">
+                    <span>Data Modeling</span><span>DAX</span><span>Power Query</span><span>RLS</span>
+                </div>
+            </div>
+
+            <div class="stack-card">
+                <div class="stack-icon"><i class="fa-solid fa-database text-cyan"></i></div>
+                <h3>SQL Databases</h3>
+                <p>Advanced querying, window functions, CTEs, indexing, stored procedures, and database optimization.</p>
+                <div class="skill-pills">
+                    <span>PostgreSQL</span><span>MS SQL Server</span><span>MySQL</span><span>CTEs</span>
+                </div>
+            </div>
+
+            <div class="stack-card">
+                <div class="stack-icon"><i class="fa-solid fa-file-excel text-emerald"></i></div>
+                <h3>Advanced Excel & VBA</h3>
+                <p>Power Pivot, automated VBA macros, dynamic array formulas, nested lookup models, and MIS templates.</p>
+                <div class="skill-pills">
+                    <span>VBA Macros</span><span>Power Pivot</span><span>Dynamic Arrays</span>
+                </div>
+            </div>
+
+            <div class="stack-card">
+                <div class="stack-icon"><i class="fa-solid fa-gears text-blue"></i></div>
+                <h3>Process Automation</h3>
+                <p>Transforming multi-hour manual spreadsheet tasks into 1-click automated analytical pipelines.</p>
+                <div class="skill-pills">
+                    <span>ETL Workflows</span><span>Data Cleansing</span><span>MIS Reports</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANALYTICS PROJECTS CASE STUDIES -->
+    <section id="projects" class="projects section-observe">
+        <div class="section-title">
+            <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Enterprise Portfolio</span>
+            <h2>Featured <span>Data Case Studies</span></h2>
+            <p>Real business problems solved through analytical modeling and interactive dashboard engineering.</p>
+        </div>
+
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Financial BI Dashboard">
+                    <div class="roi-tag"><i class="fa-solid fa-chart-line"></i> 40% Time Saved</div>
+                </div>
+                <div class="project-body">
+                    <div class="tech-tags">
+                        <span>Power BI</span><span>DAX</span><span>Power Query</span>
+                    </div>
+                    <h3>Executive Financial Performance Dashboard</h3>
+                    <p>Built an end-to-end Power BI executive dashboard consolidating revenue streams, cost centers, and YoY growth across 15+ branch locations.</p>
+                    <div class="project-impact">
+                        <div class="impact-item">
+                            <strong>15+</strong>
+                            <span>Data Sources Consolidated</span>
+                        </div>
+                        <div class="impact-item">
+                            <strong>40%</strong>
+                            <span>Reduction in Report Prep</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="SQL Supply Chain Analysis">
+                    <div class="roi-tag"><i class="fa-solid fa-shield-check"></i> $120K Cost Avoided</div>
+                </div>
+                <div class="project-body">
+                    <div class="tech-tags">
+                        <span>SQL Server</span><span>PostgreSQL</span><span>Metabase</span>
+                    </div>
+                    <h3>Supply Chain Inventory & Churn Analytics</h3>
+                    <p>Designed SQL analytical queries using CTEs and windowing to detect inventory bottlenecks and stock churn in real-time logistics.</p>
+                    <div class="project-impact">
+                        <div class="impact-item">
+                            <strong>10M+</strong>
+                            <span>Database Records Analyzed</span>
+                        </div>
+                        <div class="impact-item">
+                            <strong>18%</strong>
+                            <span>Stock Turnover Increase</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=900&q=80" alt="VBA MIS Automation">
+                    <div class="roi-tag"><i class="fa-solid fa-bolt"></i> 100% Automated</div>
+                </div>
+                <div class="project-body">
+                    <div class="tech-tags">
+                        <span>Excel VBA</span><span>Power Pivot</span><span>Macros</span>
+                    </div>
+                    <h3>Automated Daily Banking MIS Engine</h3>
+                    <p>Created an automated Excel VBA macro suite that ingests multi-format daily transactional files, performs validation checks, and emails PDF summaries.</p>
+                    <div class="project-impact">
+                        <div class="impact-item">
+                            <strong>3 Hrs/Day</strong>
+                            <span>Operational Effort Saved</span>
+                        </div>
+                        <div class="impact-item">
+                            <strong>0%</strong>
+                            <span>Human Calculation Error</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact section-observe">
+        <div class="contact-card-container">
+            <div class="contact-info">
+                <span class="section-tag"><i class="fa-solid fa-headset"></i> Connect With Me</span>
+                <h2>Let's Discuss Your <span>Data Needs</span></h2>
+                <p>Interested in optimizing your MIS reporting, building Power BI dashboards, or discussing data analytics opportunities? Reach out directly:</p>
+
+                <div class="contact-links-list">
+                    <a href="mailto:gabrieltelang20@gmail.com" class="c-link">
+                        <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <span>Email Address</span>
+                            <strong>gabrieltelang20@gmail.com</strong>
+                        </div>
+                    </a>
+
+                    <a href="tel:+918652691307" class="c-link">
+                        <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <span>Phone Number</span>
+                            <strong>+91 8652691307</strong>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/gabriel-telang-57abb32a8" target="_blank" class="c-link">
+                        <div class="c-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div>
+                            <span>LinkedIn Profile</span>
+                            <strong>linkedin.com/in/gabriel-telang</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <form onsubmit="event.preventDefault(); alert('Thank you! Gabriel has received your message.');">
+                    <h3>Send Direct Message</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Briefly describe your business reporting or data requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-cyan btn-full">Submit Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <p>&copy; <span id="year"></span> <strong>Gabriel Telang</strong> — Enterprise Data Analyst.</p>
+        <a href="#home" class="top-btn"><i class="fa-solid fa-arrow-up"></i> Top</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
